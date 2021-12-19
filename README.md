@@ -1,1 +1,5 @@
 # ESE417-MLFinalProject
+
+This repository contains the Python code, project report, and data used for my ESE 417 - Machine Learning Final Project.  The goal of the project was to use (at minimum) two supervised machine learning models to correctly classify red wine into a class.  The classes are on a scale of 0-10, 0 being bad wine and 10 being good wine.  The data was downloaded from [here](https://archive.ics.uci.edu/ml/datasets/wine+quality).  The data set itself contains eleven features and about 1,600 different labeled red wines.  The data set is very imbalanced.  
+
+We used an Artificial Neural Networ (ANN), K-Nearest Neighbors (KNN), and Random Forest (RF) models to train and test.  We first initially did some data preprocessing and visualization, then trained the models to get a general sense of preformace.  Then used gridsearch to tune the hyperparameters of each model.  After this, we implemented each model with the most optimial parameters and evaluated the preformance using accuracy and precision preformance metrics.  
